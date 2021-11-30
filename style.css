@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
 *{
     margin: 0;
@@ -34,7 +34,7 @@ header{
 }
 
 nav{
-    margin-top: 57px;
+    margin-top: 56px;
     margin-left: 29%;
 }
 
@@ -48,6 +48,7 @@ nav{
 
 .topnav a:hover{
     border-bottom: 3px solid #fcac45;
+    position: relative;
 }
 
 .topnav .icon{
@@ -225,7 +226,7 @@ main .main__about{
 }
 
 .main__clients h1{
-    margin-bottom: 30px;
+    margin-bottom: 115px;
     font-weight: 400;
 }
 
@@ -251,15 +252,22 @@ main .main__about{
 }
 
 .main__testimonials p{
-    color: #b2b2b2;
+    color: #d8d8d8;
     font-weight: 400;
     font-size: 18px;
 }
 
+
+.main__testimonials h1 span{
+    font-weight: 300; 
+}
+
+
 .main__testimonials h1{
     text-transform: uppercase;
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 116px;
+    font-weight: 700;
 }
 
 .main__work{
@@ -278,6 +286,7 @@ main .main__about{
 
 .main__work p{
     margin-bottom: 175px;
+    font-size: 16px;
     color: #b2b2b2;
 }
 
@@ -300,6 +309,11 @@ main .main__about{
 }
 
 .contact__form p{
+    text-align: left;
+    font-weight: 300;
+}
+
+.contact__form h1, p{
     text-align: center;
 }
 
@@ -308,6 +322,7 @@ main .main__about{
     color: black;
     margin-bottom: 30px;
 }
+
 
 .red{
     color: red;
@@ -319,7 +334,7 @@ main .main__about{
 }
 
 form p{
-    text-align: left;
+    text-align: center;
 }
 
 textarea{
