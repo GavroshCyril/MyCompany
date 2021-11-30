@@ -148,17 +148,8 @@ main .main__about{
 
 .main__team h1{
     font-size: 44px;
-    padding-bottom: 30px;
+    padding-bottom: 110px;
 }   
-
-/* .line{
-    width: 100px;
-    height: 3px;
-    background: #fcac45;
-    position: relative;
-    left: 45.5%;
-    margin-bottom: 85px;
-} */
 
 .photo{
     background: #d7d7d7;
@@ -190,8 +181,6 @@ main .main__about{
     font-size: 14px;
     font-weight: 400;
 }
-
-
 
 .services__cards{
     text-align: center;
@@ -257,11 +246,9 @@ main .main__about{
     font-size: 18px;
 }
 
-
 .main__testimonials h1 span{
     font-weight: 300; 
 }
-
 
 .main__testimonials h1{
     text-transform: uppercase;
@@ -313,16 +300,11 @@ main .main__about{
     font-weight: 300;
 }
 
-.contact__form h1, p{
-    text-align: center;
-}
-
 .contact__form h1{
     text-align: center;
     color: black;
     margin-bottom: 30px;
 }
-
 
 .red{
     color: red;
@@ -334,6 +316,10 @@ main .main__about{
 }
 
 form p{
+    text-align: center;
+}
+
+.form__paragraph{
     text-align: center;
 }
 
@@ -401,8 +387,6 @@ footer{
 .social img:hover{
     opacity: 0.6;
 }
-
-
 
 @media screen and (max-width: 1200px) {
     nav{
